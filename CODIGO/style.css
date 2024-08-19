@@ -1,0 +1,220 @@
+.carros-container {
+  position: relative;
+}
+
+.carros-container h2 {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.carros-container table {
+  margin: 0 auto;
+}
+
+.pista {
+  width: 2000px;
+  height: 314.5px;
+  background-color: gray;
+}
+
+#carro1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+  margin-left: 1px;
+  margin-top: 1px;
+  background-image: url("img/carro1.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#carro2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+  margin-left: 1px;
+  margin-top: 61px;
+  background-image: url("img/carro2.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#carro3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+  margin-left: 1px;
+  margin-top: 122px;
+  background-image: url("img/carro3.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#carro4 {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  z-index: 2;
+  margin-left: 1px;
+  margin-top: 187px;
+  background-image: url("img/cavalo.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+#carro5 {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  z-index: 2;
+  margin-left: 1px;
+  margin-top: 254px;
+  background-image: url("img/peru.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+h1{
+  text-align: center;
+  font-size: 5rem;
+}
+
+#linha{
+  position: absolute;
+  width: 2000px;
+  height: 2.5px;
+  margin-top: 65px;
+  background-color: white;
+  z-index: 1;
+}
+
+#linha2{
+  position: absolute;
+  width: 2000px;
+  height: 2.5px;
+  margin-top: 125px;
+  background-color: white;
+  z-index: 1;
+}
+
+#linha3{
+  position: absolute;
+  width: 2000px;
+  height: 2.5px;
+  margin-top: 185px;
+  background-color: white;
+  z-index: 1;
+}
+
+#linha4{
+  position: absolute;
+  width: 2000px;
+  height: 2.5px;
+  margin-top: 245px;
+  background-color: white;
+  z-index: 1;
+}
+
+#linhainicio{
+  position: absolute;
+  z-index: 1;
+  width: 25px;
+  height: 69px;
+  margin-left: 125px;
+}
+
+#linhainicio2{
+  position: absolute;
+  z-index: 1;
+  width: 25px;
+  height: 69px;
+  margin-top: 65px;
+  margin-left: 125px;
+}
+
+#linhainicio3{
+  position: absolute;
+  z-index: 1;
+  width: 25px;
+  height: 69px;
+  margin-top: 125px;
+  margin-left: 125px;
+}
+
+#linhainicio4{
+  position: absolute;
+  z-index: 1;
+  width: 25px;
+  height: 69px;
+  margin-top: 185px;
+  margin-left: 125px;
+}
+
+#linhainicio5{
+  position: absolute;
+  z-index: 1;
+  width: 25px;
+  height: 69px;
+  margin-top: 245px;
+  margin-left: 125px;
+}
+
+#linhachegada{
+  position: absolute;
+  z-index: 1;
+  width: 25px;
+  height: 69px;
+  margin-left: 1800px;
+}
+
+#linhachegada2{
+  position: absolute;
+  z-index: 1;
+  width: 25px;
+  height: 69px;
+  margin-top: 65px;
+  margin-left: 1800px;
+}
+
+#linhachegada3{
+  position: absolute;
+  z-index: 1;
+  width: 25px;
+  height: 69px;
+  margin-top: 125px;
+  margin-left: 1800px;
+}
+
+#linhachegada4{
+  position: absolute;
+  z-index: 1;
+  width: 25px;
+  height: 69px;
+  margin-top: 185px;
+  margin-left: 1800px;
+}
+
+#linhachegada5{
+  position: absolute;
+  z-index: 1;
+  width: 25px;
+  height: 69px;
+  margin-top: 245px;
+  margin-left: 1800px;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}

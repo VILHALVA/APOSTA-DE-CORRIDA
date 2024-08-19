@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JOGO DE APOSTA</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="init()">
+  <h1>JOGO DE APOSTA</h1>
+  <div class="container">
+    <div class="saldo-container">
+      <h2>SALDO: R$ <span id="saldo">100</span></h2>
+    </div>
+    <div class="aposta-container">
+      <h2>REALIZAR APOSTA:</h2>
+      <input type="number" id="valorAposta" placeholder="Valor da Aposta">
+      <button id="realizarApostaBtn" onclick="realizarAposta()">APOSTAR</button>
+      <p id="resultado"></p>
+    </div>
+    <div class="carros-container">
+      <h2>Escolha o Carro para Apostar(1-5 De cima para baixo):</h2>
+      <table>
+        <tr>
+          <td><button id="escolherCarroBtn1" onclick="escolherCarro(1)">Carro 1</button></td>
+          <td><button id="escolherCarroBtn2" onclick="escolherCarro(2)">Carro 2</button></td>
+          <td><button id="escolherCarroBtn3" onclick="escolherCarro(3)">Carro 3</button></td>
+          <td><button id="escolherCarroBtn4" onclick="escolherCarro(4)">Carro 4</button></td>
+          <td><button id="escolherCarroBtn5" onclick="escolherCarro(5)">Carro 5</button></td>
+        </tr>
+      </table>
+    </div>
+    <div class="adicionar-dinheiro-container">
+      <h2>ADICIONAR DINHEIRO:</h2>
+      <input type="number" id="valorAdicionar" placeholder="Valor a Adicionar">
+      <button id="adicionarDinheiroBtn" onclick="adicionarDinheiro()">+ DINHEIRO</button>
+    </div>
+  </div>
+  
+  <div class="pista">
+    
+    <img id="linhainicio" src="img/linha.png"></img>
+    <img id="linhachegada" src="img/linha.png"></img>
+    <img id="carro1" src="img/carro1.png"></img>
+    <img id="linhainicio2" src="img/linha.png"></img>
+    <img id="linhachegada2" src="img/linha.png"></img>
+    <div id="linha"></div>
+    <img id="linhainicio3" src="img/linha.png"></img>
+    <img id="linhachegada3" src="img/linha.png"></img>
+    <img id="carro2" src="img/carro2.png"></img>
+    <div id="linha2"></div>
+    <img id="linhainicio4" src="img/linha.png"></img>
+    <img id="linhachegada4" src="img/linha.png"></img>
+    <img id="carro3" src="img/carro3.png"></img>
+    <div id="linha3"></div>
+    <img id="linhainicio5" src="img/linha.png"></img>
+    <img id="linhachegada5" src="img/linha.png"></img>
+    <img id="carro4" src="img/carro4.png"></img>
+    <div id="linha4"></div>
+    <img id="carro5" src="img/carro5.png"></img>
+  </div>
+</body>
+</html>
